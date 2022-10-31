@@ -30,7 +30,6 @@ export class LoginComponent implements OnInit {//3rd execution
   acnoChange(event:any){
     this.acno=(event.target.value);
     console.log(this.acno);
-    
   }
   pswdChange(event:any){
     this.pswd=(event.target.value);
